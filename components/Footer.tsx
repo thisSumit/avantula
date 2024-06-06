@@ -13,7 +13,7 @@ export const Footer = () => {
     <footer className='w-full pt-20 pb-10 text-lg' id='contact'>
         <div className='flex relative flex-col items-center'>
             <h1 className='text-3xl sm:text-5xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8'>Are You Ready To Take <span className='text-purple-500'>Your Digital Presence To The Next Level</span>?</h1>
-            <p className='text-neutral-400'>Reach Out to Us, Let's Discuss How We can help You to Develop Online Presense</p>
+            <p className='text-neutral-400'>Reach Out to Us, Let&apos; Discuss How We can help You to Develop Online Presense</p>
             <a href="https://cal.com/avantula" className='cursor-pointer'>
             <Shimmer title='Get in Touch' icon={<FaLocationArrow />} position='right'/>
             </a>

@@ -14,7 +14,7 @@ const Website = () => {
                 <div className='pt-[12vh] pb-10 flex flex-col md:pt-[16vh]'>
                     <h1 className='text-4xl flex items-center sm:text-7xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
                     <p className='left-0 right-0 my-2 text-lg font-bold text-neutral-300'>
-                    "Web development is the process of building, creating, and maintaining websites. It encompasses various aspects, including web design, web content development, client-side/server-side scripting, and network security configuration. Web development ranges from creating simple static pages to complex web-based applications, social network services, and e-commerce platforms."<br /> <span className='text-purple-400'>Provide a platform for businesses to showcase their products and services with Avantula.</span></p>
+                    &quot;Web development is the process of building, creating, and maintaining websites. It encompasses various aspects, including web design, web content development, client-side/server-side scripting, and network security configuration. Web development ranges from creating simple static pages to complex web-based applications, social network services, and e-commerce platforms.&quot;<br /> <span className='text-purple-400'>Provide a platform for businesses to showcase their products and services with Avantula.</span></p>
                 </div>
                 <div className='flex items-center justify-start'>
                     <h2 className='text-3xl font-bold text-nowrap'>Website Development</h2>

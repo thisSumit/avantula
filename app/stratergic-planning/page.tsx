@@ -12,7 +12,7 @@ const strategic = () => {
                 <FloatingNav navItems={navItems} />
                 <div className='pt-[12vh] pb-10 flex flex-col md:pt-[16vh]'>
                     <h1 className='text-4xl flex items-center sm:text-7xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
-                    <p className='left-0 right-0 my-2 text-lg font-bold text-neutral-300 flex'>"At AVANTULA, we specialize in transforming your brand's vision into reality. From social media ads and event promotions to graphic design and lead conversion, our comprehensive suite of services is designed to boost your business growth. Let's hustle together to make your brand shine."</p>
+                    <p className='left-0 right-0 my-2 text-lg font-bold text-neutral-300 flex'>&quot;At AVANTULA, we specialize in transforming your brand&apos;s vision into reality. From social media ads and event promotions to graphic design and lead conversion, our comprehensive suite of services is designed to boost your business growth. Let&apos;s hustle together to make your brand shine.&quot;</p>
                 </div>
                 <div className='flex items-center justify-start'>
                     <h2 className='text-3xl font-bold text-nowrap'>Strategic Planning</h2>
@@ -29,9 +29,9 @@ const strategic = () => {
         
         <h2>Key Components of Strategic Planning:</h2>
         <ul>
-            <li><strong>Mission Statement:</strong> A concise statement that defines the purpose and reason for an organization's existence.</li>
-            <li><strong>External Analysis:</strong> Examination of the organization's external environment, including market trends, competition, and regulatory factors.</li>
-            <li><strong>Internal Analysis:</strong> Assessment of the organization's strengths, weaknesses, resources, and capabilities.</li>
+            <li><strong>Mission Statement:</strong> A concise statement that defines the purpose and reason for an organization&apos; existence.</li>
+            <li><strong>External Analysis:</strong> Examination of the organization&apos; external environment, including market trends, competition, and regulatory factors.</li>
+            <li><strong>Internal Analysis:</strong> Assessment of the organization&apos; strengths, weaknesses, resources, and capabilities.</li>
             <li><strong>SWOT Analysis:</strong> Identification of Strengths, Weaknesses, Opportunities, and Threats to inform strategic decisions.</li>
             <li><strong>Goal Setting:</strong> Establishing specific, measurable, achievable, relevant, and time-bound (SMART) objectives to guide the organization.</li>
             <li><strong>Strategy Formulation:</strong> Developing strategies to achieve the established goals, considering both short-term and long-term perspectives.</li>

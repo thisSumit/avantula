@@ -13,7 +13,7 @@ const graphic = () => {
                 <div className='pt-[12vh] pb-10 flex flex-col md:pt-[16vh]'>
                     <h1 className='text-4xl flex items-center sm:text-7xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
                     <p className='left-0 right-0 my-2 text-lg font-bold text-neutral-300'>
-                    "Graphic Designing help to Attract Customer. It work many time, if One Advertise was slightly different from Majority Advertisement Customer/Viewer attracts to that One Advertise. At end Customer Store that Ad in Mind & Visite that Place/Store"<br /> <span className='text-purple-400'>Attract Customers to Your products and services with Avantula.</span></p>
+                    &quot;Graphic Designing help to Attract Customer. It work many time, if One Advertise was slightly different from Majority Advertisement Customer/Viewer attracts to that One Advertise. At end Customer Store that Ad in Mind & Visite that Place/Store&quot;<br /> <span className='text-purple-400'>Attract Customers to Your products and services with Avantula.</span></p>
                 </div>
         <div className='flex items-center justify-start'>
           <h2 className='text-3xl font-bold text-nowrap'>Graphic Designing</h2>
