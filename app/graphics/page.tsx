@@ -21,20 +21,24 @@ const graphic = () => {
         </div>
         <div className='w-full my-5'>
           <img className='rounded-lg w-full' src="/page-gr.png" alt="Strategic Planning" />
+          
         </div>
 
-        <div className="w-full h-full p-10 grid grid-cols-1 md:grid-cols-2  max-w-7xl mx-auto gap-4 relative">
-        <img src="/page-or.png" alt="" />
-        <img src="/page-vi.png" alt="" />
-        <img src="/g7.png" alt="" />
+        <div className="w-full h-full p-10 flex flex-col gap-4 max-w-7xl mx-auto relative">
+          <video className='w-full' muted autoPlay controls playsInline loop><source src="/mockup.mp4"></source></video>
+          <img src="/g9.png" alt="" />
+          <div className='grid grid-cols-2 gap-4'>
+          <img src="/g7.png" alt="" />
           <img src="/g8.png" alt="" />
-          <img src="/g1.png" alt="" />
           <img src="/g2.png" alt="" />
           <img src="/g3.png" alt="" />
           <img src="/g4.png" alt="" />
           <img src="/g5.png" alt="" />
-          <img src="/g6.png" alt="" />
+          <img src="/g10.png" alt="" />
+          <img src="/g11.png" alt="" />
+          </div>
         </div>
+        
 
         <div className='py-3 text-neutral-300 flex flex-col'>
           <h1 className="mt-2 font-bold text-white">The Power of Graphics in Marketing</h1>

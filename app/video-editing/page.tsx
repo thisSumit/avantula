@@ -14,17 +14,19 @@ const video = () => {
           <p className='left-0 right-0 my-2 text-lg font-bold text-neutral-300'>
           &quot;Now a Days Instagram Reels and Youtube Short video takes a part in Marketing instead of long TV ads. Showing right Content and Information to Viewer is Most Important rather than Going through Trends always. Trying New things to attract Viewer is Important&quot;<br /> <span className='text-purple-400'>Create Visuals that Shows Feeling and Emotions of Your products and services with Avantula.</span></p>
         </div>
-        <div className='flex items-center justify-start'>
+        <div className='flex items-center mb-5 justify-start'>
           <h2 className='text-3xl font-bold'>Videos</h2>
           <Separator />
         </div>
-        <div className='flex flex-col md:flex-row justify-evenly'>
+
+        <div className='flex flex-row justify-evenly'>
           <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-4'><video muted className='w-full' controls playsInline loop autoPlay><source src="/v1.mp4"></source></video></div>
           <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-4'><video muted className='w-full' controls playsInline loop autoPlay><source src="/v4.mp4"></source></video></div>
           <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-4'><video muted className='w-full' controls playsInline loop autoPlay><source src="/v3.mp4"></source></video></div>
         </div>
 
         <div className='flex flex-col items-center'>
+          <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-2'><video className='w-full' muted autoPlay controls playsInline loop><source src="/mockup.mp4"></source></video></div>
           <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-2'><video className='w-full' muted autoPlay controls playsInline loop><source src="/v2.mp4"></source></video></div>
           <div className='relative w-[90%] max-w-6xl rounded-xl mx-3 my-4'><video className='w-full' muted autoPlay controls playsInline loop ><source src="/v5.mp4"></source></video></div>
         </div>

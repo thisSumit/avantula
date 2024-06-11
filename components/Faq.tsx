@@ -33,7 +33,7 @@ export function Faq() {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
-                        <AccordionTrigger className="h-[10vh] text-left leading-5">How does our creative approach help businesses establish a unique identity and stand out from the crowd?</AccordionTrigger>
+                        <AccordionTrigger className="h-[13vh] text-left">How does our creative approach help businesses establish a unique identity and stand out from the crowd?</AccordionTrigger>
                         <AccordionContent className="text-lg">
                             Our approach to every solution is creative, which helps business to get a identity that is nothing but a uniqueness. We know every brand have there unique identity which make them stand out from crowd so if you also want to stand out lets connect and make a brand.
                         </AccordionContent>
