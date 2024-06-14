@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import SmoothScrolling from "@/components/SmoothScrolling";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +26,7 @@ export default function RootLayout({
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
-          ><SmoothScrolling>{children}</SmoothScrolling></ThemeProvider></body>
+          >{children}</ThemeProvider></body>
     </html>
   );
 }
