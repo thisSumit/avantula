@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Avantula",
-  description: "The Best Marketing Agency in India and Nagpur. Efficient, Effective and Quality Services Given",
+  description: "Avantula is The Best Marketing Agency in India and Nagpur. Efficient, Effective and Quality Services Given. With Avantula, try the Best Digital marketing Agency in Nagpur as well as in India. We are the one of the top leading creative marketing agency",
 };
 
 export default function RootLayout({
@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
    return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/icon.jpg" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
