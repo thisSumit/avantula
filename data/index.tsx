@@ -94,35 +94,35 @@ export const navItems = [
       title: "Trendy Hippo",
       des: "By Giving 4X LEADS and 2X CONVERSIONS. We have worked about to a month and manages to give 3x Growth with some Great Deals",
       img: "/p00.png",
-      link: "https://wwww.trendyhippo.live",
+      link: "https://trendyhippo.live",
     },
     {
       id: 2,
       title: "One Last Time",
       des: "REACHED 17000+ VIEWS from Video Editing and Cinematography, We helps CEOP Drama and Films Club to Show there Vision, Express there Feeling and Emotion throught One Last Time by Editing and Cuts.",
       img:"/p0.png",
-      link: "https://www.youtube.com/watch?v=FK-SUkX_S-E",
+      link: "https://youtube.com/watch?v=FK-SUkX_S-E",
     },
     {
       id: 3,
       title: "Video Editor Website",
       des: "Created Freelancer Client Portfolio Website to Show Proof of Work online. Client required futuristic aspect and Mordern theme. Client requirments are to put Client Videos and Reels and Schedule Meeting throught it, to reach more client and share with others",
       img: "/web-1.png",
-      link: "https://www.aadityakaranjekar.framer.ai/",
+      link: "https://aadityakaranjekar.framer.ai/",
     },
     // {
     //   id: 4,
     //   title: "BERIDE App UI",
     //   des: "BERIDE is an Beta testing product, to Save Vehicle fuel and Travellers Money they find new app for that we created UI which are in try/fail face.",
     //   img: "/logo2.png",
-    //   link: "www.figma.com/proto/l8fAiTh4Kcaii5w2mqKI3L/Untitled?node-id=101-2&t=6MQeZi8iW3lRCV2y-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=101%3A2",
+    //   link: "figma.com/proto/l8fAiTh4Kcaii5w2mqKI3L/Untitled?node-id=101-2&t=6MQeZi8iW3lRCV2y-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=101%3A2",
     // },
     {
       id: 5,
       title: "Chalo Muskurao",
       des: "Created this reel for Inspiring people to take time and smile in this busy world because 'Muskurana Free He Yaha' used Black and White to focus view to Lyrics only. By this, it has own Aesthetics.",
       img: "/logo4.webp",
-      link: "https://www.instagram.com/reel/C7TyVZYiBX6/",
+      link: "https://instagram.com/reel/C7TyVZYiBX6/",
     },
   ];
   
@@ -153,7 +153,7 @@ export const navItems = [
         "Working with Avantula Creative Marketing Agency was amazing for our club. His editing and creative skills are exceptional.",
       name: "Drama and Films Club",
       title: "COEP Club",
-      img:"https://www.coep.org.in/sites/default/files/slideshow%20images/Picture2.png"
+      img:"https://coep.org.in/sites/default/files/slideshow%20images/Picture2.png"
     },
     {
       quote:
@@ -176,21 +176,21 @@ export const navItems = [
     {
       id: 4,
       img: "/insta.svg",
-      link: "https://www.instagram.com/avantula.live/"
+      link: "https://instagram.com/avantula.live/"
     },
     {
       id: 2,
       img: "/tw2.svg",
-      link: "https://www.x.com/avantula/"
+      link: "https://x.com/avantula/"
     },
     {
       id: 3,
       img: "/link.svg",
-      link: "https://www.linkedin.com/company/avantula/"
+      link: "https://linkedin.com/company/avantula/"
     },
     {
       id:1,
       img:'/fb2.svg',
-      link: "https://www.facebook.com/profile.php?id=61560904769323/"
+      link: "https://facebook.com/profile.php?id=61560904769323/"
     }
   ];

@@ -1,3 +1,4 @@
+'use client'
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
