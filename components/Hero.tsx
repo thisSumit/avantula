@@ -3,8 +3,6 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './TextGenerateEffect'
 import Shimmer from './ui/shimmer-button'
-import { CiLocationArrow1 } from 'react-icons/ci'
-import { Button } from './ui/button'
 import { MdArrowOutward } from "react-icons/md";
 
 
@@ -24,7 +22,7 @@ export const Hero = () => {
       </h2>
       <TextGenerateEffect className='text-[20px] md:text-1xl lg:text-2xl text-neutral-200' words={'We Hustle For Your Business Growth'}
       />
-      <a href="https://cal.com/avantula"><Shimmer title='Book a Meet' icon={<MdArrowOutward />} position='right'/></a>
+      <Shimmer handleClick={() => window.location.href = "http://cal.com/avantula"} title='Book a Meet' icon={<MdArrowOutward />} position='right'/>
       </div>
     </div>
     

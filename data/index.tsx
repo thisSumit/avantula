@@ -1,9 +1,17 @@
+// export const navItems = [
+//   { name: "Services", link: "/about" === '/about' ? '/#services' : "#services" },
+//   { name: "projects", link: "/about" === '/about' ? '/#projects' : "#projects" },
+//   { name: "testimonials", link: "/about" === '/about' ? '/#testimonials' : "#testimonials" },
+//   { name: "About Us", link: "/about" },
+// ];
+
+
 export const navItems = [
-    { name: "Services", link: "#services" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "About Us", link: "/about" },
-  ];
+  { name: "Services", link: "/#services"},
+  { name: "Projects", link: "/#projects"},
+  { name: "Testimonials", link: "/#testimonials"},
+  { name: "About Us", link: "/about"},
+];
   
   export const gridItems = [
     {
@@ -86,21 +94,21 @@ export const navItems = [
       title: "Trendy Hippo",
       des: "By Giving 4X LEADS and 2X CONVERSIONS. We have worked about to a month and manages to give 3x Growth with some Great Deals",
       img: "/p00.png",
-      link: "trendyhippo.live",
+      link: "https://wwww.trendyhippo.live",
     },
     {
       id: 2,
       title: "One Last Time",
       des: "REACHED 17000+ VIEWS from Video Editing and Cinematography, We helps CEOP Drama and Films Club to Show there Vision, Express there Feeling and Emotion throught One Last Time by Editing and Cuts.",
       img:"/p0.png",
-      link: "www.youtube.com/watch?v=FK-SUkX_S-E",
+      link: "https://www.youtube.com/watch?v=FK-SUkX_S-E",
     },
     {
       id: 3,
       title: "Video Editor Website",
       des: "Created Freelancer Client Portfolio Website to Show Proof of Work online. Client required futuristic aspect and Mordern theme. Client requirments are to put Client Videos and Reels and Schedule Meeting throught it, to reach more client and share with others",
       img: "/web-1.png",
-      link: "aadityakaranjekar.framer.ai/",
+      link: "https://www.aadityakaranjekar.framer.ai/",
     },
     // {
     //   id: 4,
@@ -114,7 +122,7 @@ export const navItems = [
       title: "Chalo Muskurao",
       des: "Created this reel for Inspiring people to take time and smile in this busy world because 'Muskurana Free He Yaha' used Black and White to focus view to Lyrics only. By this, it has own Aesthetics.",
       img: "/logo4.webp",
-      link: "www.instagram.com/reel/C7TyVZYiBX6/",
+      link: "https://www.instagram.com/reel/C7TyVZYiBX6/",
     },
   ];
   
@@ -168,12 +176,12 @@ export const navItems = [
     {
       id: 4,
       img: "/insta.svg",
-      link: "https://www.instagram.com/"
+      link: "https://www.instagram.com/avantula.live/"
     },
     {
       id: 2,
       img: "/tw2.svg",
-      link: "https://www.x.com/"
+      link: "https://www.x.com/avantula/"
     },
     {
       id: 3,
@@ -183,6 +191,6 @@ export const navItems = [
     {
       id:1,
       img:'/fb2.svg',
-      link: "https://www.facebook.com/"
+      link: "https://www.facebook.com/profile.php?id=61560904769323/"
     }
   ];

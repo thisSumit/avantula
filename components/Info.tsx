@@ -1,7 +1,6 @@
 import { Separator } from "@/components/ui/separator"
 
 import React from 'react'
-import Shimmer from "./ui/shimmer-button"
 import { MdArrowOutward } from "react-icons/md"
 import { Link } from "lucide-react"
 

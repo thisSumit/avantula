@@ -41,12 +41,10 @@ export function Faq() {
                 </Accordion>
             </div>
             <Separator />
-            <div className='flex relative mt-10 md:mb-10 md-5 md:gap-10 gap-5 md:flex-row flex-col justify-between items-start'>
-                <div className='flex flex-col relative md:gap-4 gap-2 overflow-hidden text-sm'>
-                    <a href="tel:+919665854768"><p className='flex items-center'><CiPhone className='size-6 gap-2 mr-1' />+91-9665854768</p></a>
-                    <a href="mailto:avantula.agency@gmail.com"><p className='flex items-center'><CiMail className='size-6 gap-2 mr-1' />avantula.agency@gmail.com</p></a>
-                </div>
-                <div>
+            <div className='flex relative my-10 md:gap-10 gap-5 md:flex-row flex-col justify-between items-center'>
+                
+                <div className="flex flex-col md:items-start items-center">
+                <h1 className='text-4xl flex items-center sm:text-7xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
                     <p className='text-sm'>© AVANTULA 2024. All Rights Reserved.</p>
                     <div className="flex relative my-3 items-center md:gap-3 gap-6">
                         {socialMedia.map((info) => (
@@ -58,8 +56,18 @@ export function Faq() {
                             </div>
                         ))}
                     </div>
-                    <p className="font-bold my-5">Proudly Created in Bharat 🇮🇳</p>
+                    <p className="font-bold my-2">Proudly Created in Bharat &#127470;&#127475;</p>
                 </div>
+                <div className='flex flex-col relative md:gap-4 gap-2 overflow-hidden text-sm'>
+                    <a href="tel:+919665854768"><p className='flex items-center'><CiPhone className='size-6 gap-2 mr-1' />+91-9665854768</p></a>
+                    <a href="mailto:contact@avantula.live"><p className='flex items-center'><CiMail className='size-6 gap-2 mr-1' />contact@avantula.live</p></a>
+                </div>
+            </div>
+            <Separator/>
+            <div className="flex overflow-hidden justify-center gap-5 my-3 text-sm text-neutral-300">
+                <p>Term & Condition</p>
+                <p>Privacy Policy</p>
+                <p>Legal</p>
             </div>
         </div>
     )

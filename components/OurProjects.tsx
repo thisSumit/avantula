@@ -2,6 +2,7 @@ import { projects } from '@/data'
 import { CircleArrowOutUpRightIcon } from 'lucide-react'
 import React from 'react'
 import { MdArrowOutward } from 'react-icons/md'
+import { Separator } from "@/components/ui/separator"
 
 export const OurProjects = () => {
   return (
@@ -19,9 +20,8 @@ export const OurProjects = () => {
                         <p className='font-light justify-center text-neutral-400 text-[14px] md:text-[18px]'>
                         {des}
                         </p>
-                        <a href={`https:\\${link}`} className='flex my-2 items-end underline'><p className='flex relative justify-end gap-1 font-light text-xs md:text-xl'>Go to <MdArrowOutward/></p></a>
+                        <a href={`https:\\${link}`} className='flex my-2 items-end underline'><p className='flex relative justify-end gap-1 font-light text-lg'>Go to <MdArrowOutward/></p></a>
                         </div>
-                    
                     </div>
                     </div>
             ))}

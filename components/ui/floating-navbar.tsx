@@ -9,17 +9,32 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
+import { Button } from "./button";
+import { MdCalendarMonth, MdEmail, MdPhone } from "react-icons/md";
+
+
 export const FloatingNav = ({
   navItems,
   className,
 }: {
   navItems: {
     name: string;
-    link: string;
+    link?: string;
     icon?: JSX.Element;
   }[];
   className?: string;
 }) => {
+  
   const { scrollYProgress } = useScroll();
  
   const [visible, setVisible] = useState(true);
@@ -83,17 +98,46 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        {/* remove this login btn */}
-        {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Login</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button> */}
-        <a href="https://cal.com/avantula">
-        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white bg-black-100 px-4 py-2 rounded-full">
+
+        <Drawer>
+        <DrawerTrigger>
+        <button className="border text-nowrap text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white bg-black-100 px-4 py-2 rounded-full">
           <span>Get in Touch</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-purple-500 to-transparent  h-px" />
         </button>
-        </a>
+        </DrawerTrigger>
+        <DrawerContent>
+        <div className="mx-auto w-full max-w-sm">
+          <DrawerHeader>
+            <DrawerTitle className="text-xl font-bold">Get in Touch</DrawerTitle>
+          </DrawerHeader>
+          <div className="">
+            <div className="flex font-bold flex-col items-center gap-3 justify-center">
+              <Button
+                variant="default"
+                className="w-[95%] h-[50px] rounded-xl flex gap-1"
+                onClick={() => window.location.href = "http://cal.com/avantula"}
+              ><MdCalendarMonth size={'20px'}/> Schedule Meet</Button>
+              <Button
+                variant="default"
+                className="w-[95%] h-[50px] rounded-xl flex gap-1"
+                onClick={() => window.location.href = "tel:+919665854768"}
+              ><MdPhone size={'20px'}/>Call +91-9665854768</Button>
+              <Button
+                variant="default"
+                className="w-[95%] h-[50px] rounded-xl flex gap-1"
+                onClick={() => window.location.href = "mailto:contact@avantula.live"}
+              ><MdEmail size={'20px'}/> Email contact@avantula.live</Button>
+            </div>
+          </div>
+          <DrawerFooter>
+            <div>
+              <p className="text-sm font-bold mb-8">Thanks for Contacting Us</p>
+            </div>
+          </DrawerFooter>
+          </div>
+          </DrawerContent>
+        </Drawer>
       </motion.div>
     </AnimatePresence>
   );
