@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Avantula",
   description: "The Best Marketing Agency in India. Efficient, Effective and Quality Services",
+  icons: {
+    icon: '/icon.jpg', // /public path
+  },
 };
 
 export default function RootLayout({
