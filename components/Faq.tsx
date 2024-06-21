@@ -44,7 +44,7 @@ export function Faq() {
             <div className='flex relative my-10 md:gap-10 gap-5 md:flex-row flex-col justify-between items-center'>
                 
                 <div className="flex flex-col md:items-start items-center">
-                <h1 className='text-4xl flex items-center sm:text-7xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
+                <h1 className='text-4xl flex items-center sm:text-7xl mb-2 font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-purple-800'>AVANTULA</h1>
                     <p className='text-sm'>© AVANTULA 2024. All Rights Reserved.</p>
                     <div className="flex relative my-3 items-center md:gap-3 gap-6">
                         {socialMedia.map((info) => (
