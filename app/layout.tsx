@@ -9,8 +9,11 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Avantula",
-  description: "Avantula is The Best Marketing Agency in India and Nagpur. Efficient, Effective and Quality Services Given. With Avantula, try the Best Digital marketing Agency in Nagpur as well as in India. We are the one of the top leading creative marketing agency",
+  title:{
+    default: "Avantula",
+    template: "Avantula %s"
+  }, 
+  description: "The Avantula Creative Digital Marketing Agency is The Best Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
 };
 
 export default function RootLayout({
