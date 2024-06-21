@@ -9,8 +9,11 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Avantula",
-  description: "The Best Marketing Agency in India and Nagpur. Efficient, Effective and Quality Services Given",
+  title:{
+    default: "Avantula",
+    template: "Avantula %s"
+  }, 
+  description: "The Avantula Creative Digital Marketing Agency is The Best Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
 };
 
 export default function RootLayout({
@@ -20,6 +23,9 @@ export default function RootLayout({
 }>) {
    return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

@@ -16,7 +16,7 @@ export const Info = () => {
         <div>
             <p>&quot;At AVANTULA, we specialize in transforming your brand&apos;s vision into reality. From social media ads and event promotions to graphic design and lead conversion, our comprehensive suite of services is designed to boost your business growth. Let&apos;s hustle together to make your brand shine.&quot;</p>
         </div>
-        <a href="/about" className="flex text-sm my-4 items-center gap-1 underline">Learn More <MdArrowOutward/></a>
+        <a href="/about" className="flex text-lg my-4 items-center gap-1 underline">Learn More <MdArrowOutward/></a>
         </div>
     </div>
   )

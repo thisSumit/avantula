@@ -26,7 +26,7 @@ const about = () => {
         <div className='py-3 text-lg text-neutral-300 flex flex-col'>
           <div className='flex items-end gap-2'>
             <h2 className='text-2xl font-bold text-purple-400'>Aaditya Karanjekar</h2>
-            <p className='italic'>Co-Founder & CEO</p>
+            <p className='italic text-nowrap text-sm'>Co-Founder & CEO</p>
           </div>
           <p>Experienced content creator, editor, digital marketer, and graphic designer with a passion for storytelling have created three short films and collaborated with over 10 clients across India, helping them achieve their goals through impactful and engaging content. Let&apos;s Get in Touch and bring your story to life.</p>
           <a className='my-1 underline flex items-center gap-1' href="https://www.linkedin.com/in/aaditya-karanjekar-38bb2520b/">Connect on LinkedIn <MdArrowOutward /></a>
@@ -34,7 +34,7 @@ const about = () => {
         <div className='py-3 text-lg text-neutral-300 flex flex-col'>
           <div className='flex items-end gap-2'>
             <h2 className='text-2xl font-bold text-purple-400'>Sumit Karanjekar</h2>
-            <p className='italic'>Co-Founder & COO</p>
+            <p className='italic text-nowrap text-sm'>Co-Founder & COO</p>
           </div>
           <p>Experienced freelancer, editor and graphic designer with a passion for Creativity and Aesthetics. Get in touch for Increase Your Growth.</p>
           <a className='my-1 underline flex items-center gap-1' href="https://www.linkedin.com/in/sumit-karanjekar-119328214/">Connect on LinkedIn <MdArrowOutward /></a>
