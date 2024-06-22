@@ -1,4 +1,4 @@
-'use client'
+
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
@@ -6,7 +6,14 @@ import React from 'react'
 import { Separator } from "@/components/ui/separator"
 import "@/app/app.css"
 import { MdArrowOutward } from "react-icons/md";
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+    title: "Website Development", 
+    description: "Website Development section of Avantula Creative Digital Marketing Agency",
+    keywords: 'best digital marketing agency in India, Nagpur, Avantula Website Development'
+  };
+  
 const Website = () => {
     return (
         <main className="relative dark:bg-black-100 bg-white-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -22,7 +29,7 @@ const Website = () => {
                     <Separator />
                 </div>
                 <div className='py-2'>
-                    <div className="w-full h-full p-10 flex flex-col mx-auto relative">
+                    <div className="w-full h-full py-6 flex flex-col mx-auto relative">
                         <div className='flex flex-col my-10'>
                             <img className='rounded-xl w-full' src="/web-3.png" alt="" />
                             <div className="flex flex-col mt-2">

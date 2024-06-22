@@ -1,9 +1,16 @@
-'use client'
+
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
 import { Separator } from "@/components/ui/separator"
 import React from 'react'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Video Editing", 
+  description: "Video Editing section of Avantula Creative Digital Marketing Agency",
+  keywords: 'best digital marketing agency in India, Nagpur, Avantula Video Editing'
+};
 
 const video = () => {
   return (

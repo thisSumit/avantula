@@ -1,6 +1,3 @@
-'use client';
-import { useScroll, useTransform, motion } from 'framer-motion';
-import Lenis from 'lenis';
 import { Client } from "@/components/Client";
 import { Footer } from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -9,9 +6,7 @@ import { Info } from "@/components/Info";
 import { OurProjects } from "@/components/OurProjects";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
-
 import Middle from "@/components/Middle";
-import { useEffect, useRef } from 'react';
 import Logos from '@/components/Logos';
 
 

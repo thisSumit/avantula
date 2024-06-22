@@ -1,27 +1,6 @@
-'use client'
-import { useScroll, useTransform, motion, MotionValue } from 'framer-motion';
-import Lenis from 'lenis';
-import { useEffect, useRef } from 'react';
 import { Separator } from './ui/separator';
 
 export default function Logos() {
-
-    const container = useRef();
-    const { scrollYProgress } = useScroll({
-      offset: ['start end', 'end start']
-    })
-  
-    useEffect( () => {
-      const lenis = new Lenis()
-  
-      function raf(time: number) {
-        lenis.raf(time)
-        requestAnimationFrame(raf)
-      }
-  
-      requestAnimationFrame(raf)
-    }, [])
-  
     return (
         <main className='w-full relative mb-10 flex md:my-10 flex-col justify-center items-center'>
             <div>

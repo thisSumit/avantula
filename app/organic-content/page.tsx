@@ -1,9 +1,16 @@
-'use client'
+
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
 import React from 'react'
 import { Separator } from "@/components/ui/separator"
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: "Organic Marketing", 
+    description: "Organic Marketing section of Avantula Creative Digital Marketing Agency",
+    keywords: 'best digital marketing agency in India, Nagpur, Avantula Organic Marketing'
+  };
 
 const graphic = () => {
     return (
@@ -36,7 +43,7 @@ Showcases authenticity: Sharing behind-the-scenes and user-generated content hum
 However, organic social media can be time-consuming and relies heavily on platform algorithms and high-quality content.
 <br />
 <span className="mt-2 font-bold text-white">What is Paid Social Media?</span>
-Paid social media uses advertising to reach targeted audiences quickly. By using platforms like Facebook and Instagram ads, businesses can target specific demographics, interests, and behaviors. Key benefits include:
+Paid social media uses advertising to reach targeted audiences quickly. By using platforms like Facebook and Instagram ads, businesses can target specific demoOrganic Marketing, interests, and behaviors. Key benefits include:
 <br />
 <span className="mt-2 font-bold text-white">Quick reach:</span> Promotes content to new followers, increasing visibility.
 Precise targeting: Ensures ads are seen by the right people. <br />

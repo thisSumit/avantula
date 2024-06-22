@@ -1,10 +1,17 @@
-'use client'
+
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
 import React from 'react'
 import { Separator } from "@/components/ui/separator"
 import "@/app/app.css"
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: "Social Media Management", 
+    description: "Social Media Management section of Avantula Creative Digital Marketing Agency",
+    keywords: 'best digital marketing agency in India, Nagpur, Avantula Social Media Management'
+  };
 
 const socialM = () => {
     return (
@@ -53,7 +60,7 @@ const socialM = () => {
 
     <h2>Common SMM Strategies</h2>
     <ul>
-        <li><strong>Audience-targeted Advertising:</strong> Tailoring ads to specific demographics.</li>
+        <li><strong>Audience-targeted Advertising:</strong> Tailoring ads to specific demoSocial Media Management.</li>
         <li><strong>Interactive Chatbots:</strong> Engaging customers with automated responses.</li>
         <li><strong>Personalized Experiences:</strong> Creating unique online experiences.</li>
         <li><strong>Influencer Partnerships:</strong> Collaborating with social media influencers.</li>

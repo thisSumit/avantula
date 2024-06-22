@@ -1,10 +1,17 @@
-'use client'
+
 import { Footer } from '@/components/Footer'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data'
 import React from 'react'
 import { Separator } from "@/components/ui/separator"
 import { MdArrowOutward } from 'react-icons/md'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "About", 
+  description: "About section of Avantula Creative Digital Marketing Agency",
+  keywords: 'best digital marketing agency in India, Nagpur, Avantula about'
+};
 
 const about = () => {
   return (
