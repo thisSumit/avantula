@@ -9,11 +9,19 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: { default:"Avantula The Creative Digital Marketing Agency in Nagpur", 
     template: "%s - Avantula The Creative Digital Marketing Agency in Nagpur"
   },
   description: "The Avantula Creative Digital Marketing Agency is The Best Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
   keywords: 'Marketing in Nagpur, Digital marketing stratergiest, ai in digital marketing, best digital marketing agency, fundamental of digital marketing, Digital Marketing, Digital Marketing in Nagpur, Digital Marketing Maharastra, Marketing Agency in Nagpur, Marketing Agency in Maharastra, Creative digital Marketing India, Creative Digital Marketing, Conversion Marketing, A/B testing, internet marketing, type of business model, digital marketing'
+=======
+  title:{
+    default: "Avantula",
+    template: "Avantula %s"
+  }, 
+  description: "The Avantula Creative Digital Marketing Agency is The Best Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
+>>>>>>> origin/main
 };
 
 export default function RootLayout({
@@ -24,9 +32,13 @@ export default function RootLayout({
    return (
     <html lang="en" suppressHydrationWarning>
       <head>
+<<<<<<< HEAD
       <meta property="og:image" content="<generated>" />
       <meta property="og:image:png" content="<generated>" />
       <link rel="icon" href="/favicon.ico" sizes="any" />
+=======
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+>>>>>>> origin/main
       </head>
       <body className={inter.className}>
         <ThemeProvider
