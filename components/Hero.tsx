@@ -24,9 +24,42 @@ export const Hero = () => {
       />
       <Shimmer handleClick={() => window.location.href = "http://cal.com/avantula"} title='Book a Meet' icon={<MdArrowOutward />} position='right'/>
       </div>
-    </div>
-    
+      <h1 className='hidden'>Avantula | The Creative Digital Marketing Agency</h1>
+      <p className='hidden'>
+        
+digital marketing agency
 
+digital marketing
+
+digital marketing services
+
+digital marketing courses
+
+digital marketing courses in nagpur
+
+digital marketing company
+Q
+digital marketing agency near me
+
+digital marketing agency in mumbai
+avantula the creative digital marketing agency nagpur
+
+digital marketing agency in nagpur
+
+top 10 digital marketing companles In nagpur
+
+best digital marketing agency in nagpur
+
+echovme digital nagpur
+
+digital marketing courses in nagpur
+Q.
+digital marketing agency in mumbai
+
+digital marketing agency near me
+
+best digital marketing classes in nagpur</p>
+    </div>
     </div>
   )
 }

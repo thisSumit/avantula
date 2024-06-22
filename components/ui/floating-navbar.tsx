@@ -83,7 +83,7 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        <a href="/"><h1 className="relative h-full uppercase text-xl cursor-pointer font-bold text-neutral-200">avantula</h1></a>
+        <a href="/"><h2 className="relative h-full uppercase text-xl cursor-pointer font-bold text-neutral-200">avantula</h2></a>
         {navItems.map((navItem: any, idx: number) => (
           
           <Link

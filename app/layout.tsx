@@ -27,9 +27,7 @@ export default function RootLayout({
    return (
     <html lang="en" suppressHydrationWarning>
       <head>
-      <meta property="og:image" content="<generated>" />
-      <meta property="og:image:png" content="<generated>" />
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
