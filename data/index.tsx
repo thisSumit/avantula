@@ -90,6 +90,13 @@ export const navItems = [
   
   export const projects = [
     {
+      id: 0,
+      title: "Dhuni Constructions Pvt Ltd",
+      des: "We are working with Avantula and Sold out 15+ Apartments within 2 Months. They help us to create brand in Nagpur Constructions Industries! We are happy to Work with Avantula",
+      img: "/dhunilogo1.png",
+      link: "https://dhuniconstructions.com",
+    },
+    {
       id: 1,
       title: "Trendy Hippo",
       des: "By Giving 4X LEADS and 2X CONVERSIONS. We have worked about to a month and manages to give 3x Growth with some Great Deals",
@@ -129,10 +136,17 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Avantula's marketing expertise helped us reach new markets and expand our customer base. Their strategic planning and execution were flawless, resulting in a significant increase in brand awareness and sales",
+        "Avantula's marketing expertise helped us to expand our customer base. Their strategic planning and execution were flawless, resulting in a significant increase in brand awareness and sales",
+      name: "Dhuni Constructions Pvt. Ltd.",
+      title: "Constructions Company",
+      img:"/dhunilogo.png"
+    },
+    {
+      quote:
+        "Avantula's marketing gives 4X LEADS and 2X CONVERSIONS. We have worked about to a month and manages to give 3x Growth with some Great Deals",
       name: "Trendy Hippo",
       title: "E-Commerce",
-      img:"https://trendyhippo.live/cdn/shop/files/trendy_hippo_word_black.png?v=1715803260&width=180"
+      img:"/trendyhippo.png"
     },
     {
       quote:
@@ -153,7 +167,7 @@ export const navItems = [
         "Working with Avantula Creative Marketing Agency was amazing for our club. His editing and creative skills are exceptional.",
       name: "Drama and Films Club",
       title: "COEP Club",
-      img:"https://coep.org.in/sites/default/files/slideshow%20images/Picture2.png"
+      img:"https://www.coep.org.in/sites/default/files/slideshow%20images/Picture2.png"
     },
     {
       quote:
@@ -167,7 +181,7 @@ export const navItems = [
         "Avantula when it comes to Design. His incredible work has significantly increased our reach.",
       name: "Elevate",
       title: "Event Organizer",
-      img:"https://ieeecsghrce.com/assets/img/Hero_Sec_Elevate2-transformed.png"
+      img:"https://media.licdn.com/dms/image/v2/D560BAQFK9pdhZR4-Qw/company-logo_200_200/company-logo_200_200/0/1719257937254/elevate_2_0_2024_logo?e=1733356800&v=beta&t=n-4zz024B8wd0rQztSqSkQXK9k8hRPyiW0ZdCPzmsWA"
     },
   ];
   

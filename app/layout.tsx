@@ -8,15 +8,14 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
-const kd = ['Marketing in Nagpur', 'Digital marketing stratergiest', 'ai in digital marketing', 'best digital marketing agency', 'fundamental of digital marketing', 'Digital Marketing', 'Digital Marketing in Nagpur', 'Digital Marketing Maharastra', 'Marketing Agency in Nagpur', 'Marketing Agency in Maharastra', 'Creative digital Marketing India', 'Creative Digital Marketing', 'Conversion Marketing', 'A/B testing', 'internet marketing', 'type of business model', 'digital marketing'];
 
 export const metadata: Metadata = {
-
-  title: { default:"Avantula The Creative Digital Marketing Agency in Nagpur", 
+  metadataBase: new URL("https://avantula.live"),
+  title: { default:"Avantula The Creative Digital Marketing Agency", 
     template: "%s - Avantula The Creative Digital Marketing Agency in Nagpur",
   },
-  description: "The Avantula Creative Digital Marketing Agency is The Best Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
-  keywords: kd,
+  description: "The Avantula Creative Digital Marketing Agency is The Best Digital Marketing Agency in India and Leading Marketing Agency in Central India by Efficient, Effective and Quality Services.",
+  keywords: ['Marketing in Nagpur', 'Digital Marketing in Nagpur', 'best digital marketing', 'grow social media', 'social meadia advertisment', 'website developer in nagpur', 'website development in nagpur', 'digital marketing service in nagpur', 'avantula digital marketing agency'],
 };
 
 export default function RootLayout({
